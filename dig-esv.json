@@ -1,0 +1,34 @@
+{
+    "homepage": "https://www.isc.org/",
+    "description": "dig (domain information groper) is a flexible tool for interrogating DNS name servers",
+    "license": "ISC",
+    "version": "9.11.5-P1",
+    "architecture": {
+        "64bit": {
+            "url": "https://ftp.isc.org/isc/bind9/9.11.5-P1/BIND9.11.5-P1.x64.zip",
+            "hash": "d4c09d5136a580a758b23d53970dade1c4184ad0e21b17b0b1c386de1bb254c5"
+        },
+        "32bit": {
+            "url": "https://ftp.isc.org/isc/bind9/9.11.5-P1/BIND9.11.5-P1.x86.zip",
+            "hash": "af92b480727685ec0bd45af6eea0bc4728810b1aae4d28a965befd202438e6a6"
+        }
+    },
+    "bin": "dig.exe",
+    "checkver": {
+        "url": "https://www.isc.org/downloads/",
+        "re": "(?sm)Current-Stable, ESV.*?BIND([\\d.]+(?:[-P\\d]*))"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://ftp.isc.org/isc/bind9/$version/BIND$version.x64.zip"
+            },
+            "32bit": {
+                "url": "https://ftp.isc.org/isc/bind9/$version/BIND$version.x86.zip"
+            }
+        }
+    },
+    "suggest": {
+        "vcredist": "extras/vcredist2012"
+    }
+}
