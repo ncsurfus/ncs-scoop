@@ -1,0 +1,52 @@
+{
+    "homepage": "http://gnuwin32.sourceforge.net/packages/coreutils.htm",
+    "description": "The GNU Core Utilities are the basic file, shell and text manipulation utilities of the GNU operating system.",
+    "license": "GPL-2.0",
+    "version": "5.3.0",
+    "url": [
+        "https://sourceforge.net/projects/gnuwin32/files/coreutils/5.3.0/coreutils-5.3.0-bin.zip"
+    ],
+    "hash": [
+        "5646a3c2d466ca3cc9f27df91f2e9ffd870c61e73e1a02cbe01a9d7dfea0dbcb"
+    ],
+    "bin": [
+        "bin\\basename.exe",
+        "bin\\cat.exe",
+        "bin\\chmod.exe",
+        "bin\\cp.exe",
+        "bin\\cut.exe",
+        "bin\\date.exe",
+        "bin\\dirname.exe",
+        "bin\\echo.exe",
+        "bin\\env.exe",
+        "bin\\expr.exe",
+        "bin\\false.exe",
+        "bin\\fold.exe",
+        "bin\\head.exe",
+        "bin\\id.exe",
+        "bin\\join.exe",
+        "bin\\ln.exe",
+        "bin\\ls.exe",
+        "bin\\md5sum.exe",
+        "bin\\mkdir.exe",
+        "bin\\mv.exe",
+        "bin\\od.exe",
+        "bin\\paste.exe",
+        "bin\\printf.exe",
+        "bin\\pwd.exe",
+        "bin\\rm.exe",
+        "bin\\rmdir.exe",
+        "bin\\sleep.exe",
+        "bin\\sort.exe",
+        "bin\\split.exe",
+        "bin\\stty.exe",
+        "bin\\tail.exe",
+        "bin\\tee.exe",
+        "bin\\touch.exe",
+        "bin\\tr.exe",
+        "bin\\true.exe",
+        "bin\\uname.exe",
+        "bin\\uniq.exe",
+        "bin\\wc.exe"
+    ]
+}
