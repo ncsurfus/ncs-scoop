@@ -49,8 +49,6 @@
         "bin\\true.exe",
         "bin\\uname.exe",
         "bin\\uniq.exe",
-        "bin\\wc.exe",
-        "bin\\libiconv2.dll",
-        "bin\\libintl3.dll"
+        "bin\\wc.exe"
     ]
 }
