@@ -25,8 +25,5 @@
         }
     },
     "extract_dir": ".",
-     "bin": [
-         "nircmd.exe",
-         "nircmdc.exe"
-    ]
+    "bin": "nircmd.exe"
 }
