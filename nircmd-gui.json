@@ -26,7 +26,7 @@
     },
     "extract_dir": ".",
      "bin": [
-        "bin": "nircmd.exe",
-        "bin": "nircmdc.exe"
+         "nircmd.exe",
+         "nircmdc.exe"
     ]
 }
